@@ -1,3 +1,5 @@
+# Selection Sort
+
 Very first algorithm (Selection Sort) and good practices to time the execution of the function
 
 Brief set of steps:
@@ -10,6 +12,7 @@ Brief set of steps:
 --
 
 What did we learn here?
+
 1. Try to break down a big problem into smaller problems - Instead of getting yourself overwhelmed with nested loops, sometimes you might want to try a separate function (e.g., find_smallest_num_idx).
 
 2. The timeit module is pretty cool.
