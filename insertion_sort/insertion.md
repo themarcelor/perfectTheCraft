@@ -4,9 +4,9 @@ About the insertion sort algorithm.
 
 Brief set of steps:
 
-1. Start moving through the items in the array <pre><code>(to_insert = i)<\pre><\code>.
-2. Compare with all previous items <pre><code>(i-1, i-2, i-3, … , i-n)</pre></code> until it reaches the beginning of the array.
-3. Swap when necessary <pre><code>(insert smallest numbers on the left side of the array)</pre></code>.
+1. Start moving through the items in the array (to_insert = i).
+2. Compare with all previous items (i-1, i-2, i-3, … , i-n) until it reaches the beginning of the array.
+3. Swap when necessary (insert smallest numbers on the left side of the array).
 
 What did we learn here?
 
