@@ -3,6 +3,7 @@
 One of the worst algorithms.
 
 Brief set of steps:
+
 1. Compare in pairs (starting from the left).
 2. Focus on the inner loop first:
    ```python
