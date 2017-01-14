@@ -3,6 +3,7 @@
 Ok, this involves some sub-arrays so things start to get trickier.
 
 Brief set of steps:
+
 1. Determine an incrementor (inc).
 2. The incrementor will help us step through sub-arrays (jumps through wide gaps to cover larger numbers that are too sparse).
   * In a sample array [36,18,10,27,3,20,9,8] of size 8, the incrementor will be “3”. The program will process 3 sub-arrays ( it is an in-place algorithm so it will not literally create / copy any values onto to the heap ):
