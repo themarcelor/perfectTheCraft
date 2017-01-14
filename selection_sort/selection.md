@@ -30,4 +30,4 @@ python selection_sort.py
 ```
 
 # Emacs:
-* ![selection_emacs](/images/selection_emacs.jpg)
+* ![selection_emacs](selection_emacs.jpg)
