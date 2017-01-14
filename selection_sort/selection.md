@@ -28,3 +28,6 @@ print min(timeit.Timer('arr=array[:]; selection_sort(arr)', setup=setup).repeat(
 python selection_sort.py
 1.92810797691
 ```
+
+# Emacs:
+* ![selection_emacs](/images/selection_emacs.jpg)
