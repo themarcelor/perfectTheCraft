@@ -3,10 +3,23 @@
 Divide and conquer algorithm that needs additional O(N) of memory space.
 It merges sorted arrays A and B into array C:
 
-  * A = | 2 | 8 | 14 | 24 |
-  * B = | 5 | 7 | 9 | 11 |
+  * A =
+  
+  |  0  |  1  |  2  |  3  |
+  | --- | --- | --- | --- |
+  |  2  |  8  |  14 |  24 |
+  
+  * B = 
+  
+  |  0  |  1  |  2  |  3  |
+  | --- | --- | --- | --- |
+  |  5  |  7  |  9  |  11 |
 
-  * C = | *2* |  |  |  |  |  |  |  |
+  * C = 
+  
+  |  0  |  1  |  2  |  3  |  4  |  5  |  6  |  7  | 
+  | --- | --- | --- | --- | --- | --- | --- | --- |
+  | *2* |     |     |     |     |     |     |     |
 
 
 Brief set of steps:
@@ -39,9 +52,11 @@ Brief set of steps:
   * *merge* | 2 | 4 | 6 | 8 | 12 | 14 | 27 | 33 |
 
 #Output:
-  * ```python
-    meh
-	```
+
+  ```python
+  python merge_sort_benchmarking.py 
+  0.810384988785
+ ```
 
 # Emacs:
-  *!(merge_emacs)[merge_emacs.jpg]
+  *![merge_emacs](merge_emacs.jpg)
