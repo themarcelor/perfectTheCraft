@@ -12,7 +12,7 @@
 * In other words:
   * log<sub>b</sub>n is an upper bound on the number of divisions needed to reach 1.
   * e.g.: log<sub>2</sub>18 = 4.17
-    18/2 = 9    9/2 = 4    4/2 = 2    2/2 = 1
+    * 18/2 = 9  ____  9/2 = 4  ___  4/2 = 2  ____  2/2 = 1
 
 * Algorithms that take O(log n), also known as logarithmic, are faster than the ones that operate in O(N), aka: Linear.
   Algorithms that take O(n*log n), also known as linearithimic, are faster than the ones that operation in O(N<sup>2</sup>), aka: Quadratic.
