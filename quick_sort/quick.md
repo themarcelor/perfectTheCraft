@@ -43,8 +43,8 @@ What did we learn here?
 	[4, 6, 7, 9, 9, 12, 15, 18]
 
 	Compilation finished at Sun Jan 15 13:15:46
-	```
-* ...
+  * ...
+* ...```
 
 
 # Output:
