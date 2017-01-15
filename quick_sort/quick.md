@@ -1,4 +1,4 @@
-# Bubble Sort
+# Quick Sort
 
 Starting with divide and conquer algorithms.
 
