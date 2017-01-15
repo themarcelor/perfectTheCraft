@@ -11,7 +11,7 @@ Brief set of steps:
 	* Randomly chosen element.
 	* Median of three elements (left, right and center or 3 elements randomly selected).
 
-2. Start iterating and comparing from both left to right and right to left of the array. *left = i-1 and right = j+1. The search starts OUTSIDE the area of the array to allow the continuous steps even after SWAPS*
+2. Start iterating and comparing from both left to right and right to left of the array, always considering the pivot on each comparison. *left = i-1 and right = j+1. The search starts OUTSIDE the area of the array to allow the continuous steps even after SWAPS*
   * Increment i until
    ```python
    array[i] >= pivot
