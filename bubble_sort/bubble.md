@@ -31,6 +31,6 @@ What did we learn here?
  ```
 
 # Emacs:
- ![bubble_emacs](bubble_sort.jpg)
+ ![bubble_emacs](bubble_emacs.jpg)
 
 
