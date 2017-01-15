@@ -1,9 +1,12 @@
 # A Quick Review of Logarithms
 
 * log<sub>b</sub>n = the exponent to which b must be raised to get to n
-  * log<sub>b</sub>n = x if b<sup>x</p> = n
-  * examples:   log<sub>2</sub>8 = 3 because 2<sup>3</sup> = 8
-                log<sub>10</sub>10000 = 4 because 10<sup>4</sup> = 10000
+
+  * log<sub>b</sub>n=x     if     b<sup>x</sup>=n
+  
+  * examples:
+    * log<sub>2</sub>8 = 3 because 2<sup>3</sup> = 8
+    * log<sub>10</sub>10000 = 4 because 10<sup>4</sup> = 10000
 
 
 * In other words:
@@ -16,6 +19,7 @@
 
 
 * Comparing the growth pattern of n and log<sub>2</sub>n:
+
   | n         | log<sub>2</sub>n |
   |-----------|------------------|
   | 2         | 1                |
