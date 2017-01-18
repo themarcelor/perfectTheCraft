@@ -7,10 +7,11 @@
 
 palim = "radar"
 notPalim = "sam"
+palim2 = "Eva, Can I Stab Bats In A Cave?"
 
 
 def isPalindrome(str):
-        str.lower()
+        str = str.lower()
         left  =0
         right = len(str) - 1
         while(left <= right):
@@ -30,3 +31,4 @@ def isPalindrome(str):
 if __name__ == '__main__':
        print(isPalindrome(palim))
        print(isPalindrome(notPalim))
+       print(isPalindrome(palim2))
