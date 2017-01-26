@@ -5,15 +5,15 @@ A palindrome is a string that reads the same forward and backward, for example, 
 # Input
 
 
-"radar"
-"sam"
-"Eva, Can I Stab Bats In A Cave?"
+"radar" <br>
+"sam" <br>
+"Eva, Can I Stab Bats In A Cave?" <br>
 
 # Output
 
-True
-False
-True
+True<br>
+False<br>
+True<br>
 
 # Sublime:
- ![palindrome](palindrom.png)
+ ![palindrome](palindrome.png)
